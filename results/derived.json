@@ -1,0 +1,42 @@
+{
+  "pendiente_loglog_mergesort_aleatoria": 1.078127535613349,
+  "pendiente_loglog_mergesort_n_ge_1024": 1.06709511007918,
+  "pendiente_loglog_insercion": 2.0480826102089633,
+  "razon_tiempo_mergesort": {
+    "min": 1.91073743,
+    "max": 2.54057264,
+    "mediana": 2.09414331
+  },
+  "razon_tiempo_insercion": {
+    "min": 3.53503096,
+    "max": 4.82471396,
+    "mediana": 4.07394412
+  },
+  "error_relativo_comparaciones_vs_nlgn_menos_1.25n_pct": {
+    "256": -0.058,
+    "512": -0.277,
+    "1024": -0.212,
+    "2048": -0.185,
+    "4096": -0.098,
+    "8192": -0.157,
+    "16384": -0.117,
+    "32768": -0.11,
+    "65536": -0.1,
+    "131072": -0.095
+  },
+  "peor_caso_coincide_exacto_con_formula": true,
+  "mejor_caso_coincide_exacto_con_formula": true,
+  "cociente_tiempo_insercion_sobre_mergesort": {
+    "256": 3.4456771768402152,
+    "512": 5.525327660388887,
+    "1024": 11.299873696848929,
+    "2048": 26.033871742765406,
+    "4096": 48.83521513849349,
+    "8192": 81.32610092272277
+  },
+  "tiempo_ordenada_sobre_aleatoria_mediana": 0.7100321149975835,
+  "razon_teorica_nlgn_rango": [
+    2.125,
+    2.25
+  ]
+}

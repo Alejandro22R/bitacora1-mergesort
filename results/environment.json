@@ -1,0 +1,37 @@
+{
+  "semilla": 2026,
+  "repeticiones_por_tamano": 5,
+  "tamanos_mergesort": [
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192,
+    16384,
+    32768,
+    65536,
+    131072
+  ],
+  "tamanos_insercion": [
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192
+  ],
+  "python": "3.13.18 (main, Oct 26 2026, 14:08:19) [Clang 23.1.3 ]",
+  "implementacion": "CPython",
+  "sistema": "Linux-6.18.44-fc-v242-x86_64-with-glibc2.39",
+  "procesador": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+  "nucleos_logicos": 2,
+  "reloj": "time.perf_counter_ns()",
+  "gc_durante_medicion": "desactivado",
+  "paquetes": {
+    "hypothesis": "6.170.14",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3"
+  },
+  "duracion_total_s": 15.2
+}
